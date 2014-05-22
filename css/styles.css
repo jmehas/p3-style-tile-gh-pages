@@ -1,0 +1,63 @@
+/* Set Your Own Margin & Padding */
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #23238E;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #2F2F4F;
+}
+
+h3 {
+	
+	font-family: 'Arimo', sans-serif;
+	color:	#2F4F4F;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+	
+}
+h2, h3, p {
+	margin: 0;
+}
+
+
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.color-1 {
+	background: #D9D9F3;
+
+}
+.color-2 {
+	background: #EAEAAE;
+	
+}
+
+.color-3 {
+	background: #E6E8FA;
+}
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
